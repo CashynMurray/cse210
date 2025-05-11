@@ -1,0 +1,169 @@
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --accent-color: #e74c3c;
+    --text-color: #333;
+    --background-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header img {
+    width: 165px;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0;
+    margin-bottom: 1rem;
+    border: 4px solid #fff;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    filter: brightness(1.08) contrast(1.08);
+}
+
+header span {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav {
+    background-color: var(--secondary-color);
+    padding: 1rem;
+}
+
+#menu-button {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+#menu-button::before {
+    content: "☰";
+    font-size: 2rem;
+    color: white;
+}
+
+.navigation {
+    display: none;
+    list-style: none;
+    padding: 0;
+}
+
+.navigation.active {
+    display: block;
+}
+
+.navigation li {
+    margin: 1rem 0;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.navigation a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.navigation a.active {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+h1 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+.course-filters {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.course-filters button {
+    padding: 0.5rem;
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.course-filters button:hover {
+    background-color: var(--primary-color);
+}
+
+#course-cards {
+    display: grid;
+    gap: 1rem;
+}
+
+.course-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.course-card.completed {
+    background-color: #e8f5e9;
+    border-color: #81c784;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0.5rem 0;
+} 
