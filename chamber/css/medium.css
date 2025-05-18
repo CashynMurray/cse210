@@ -1,0 +1,30 @@
+/* Medium-sized screen styles */
+@media screen and (min-width: 768px) {
+    /* Header adjustments */
+    .header-content {
+        padding: 0 2rem;
+    }
+
+    /* Navigation adjustments */
+    nav {
+        padding: 0.5rem 2rem;
+    }
+
+    /* Main content adjustments */
+    main {
+        padding: 2rem;
+    }
+
+    /* Directory grid adjustments */
+    #memberDirectory {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Footer adjustments */
+    .footer-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        padding: 0 2rem;
+    }
+} 

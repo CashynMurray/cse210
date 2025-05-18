@@ -1,0 +1,67 @@
+{
+    "members": [
+        {
+            "name": "Acme Corporation",
+            "address": "123 Business Ave, City, State 12345",
+            "phone": "(555) 123-4567",
+            "website": "https://acmecorp.example.com",
+            "image": "acme-logo.png",
+            "membershipLevel": 3,
+            "description": "Leading provider of innovative solutions"
+        },
+        {
+            "name": "Tech Solutions Inc",
+            "address": "456 Tech Street, City, State 12345",
+            "phone": "(555) 234-5678",
+            "website": "https://techsolutions.example.com",
+            "image": "tech-solutions.png",
+            "membershipLevel": 2,
+            "description": "IT consulting and services"
+        },
+        {
+            "name": "Green Earth Foods",
+            "address": "789 Organic Lane, City, State 12345",
+            "phone": "(555) 345-6789",
+            "website": "https://greenearth.example.com",
+            "image": "green-earth.png",
+            "membershipLevel": 1,
+            "description": "Organic grocery store"
+        },
+        {
+            "name": "City Fitness Center",
+            "address": "321 Health Road, City, State 12345",
+            "phone": "(555) 456-7890",
+            "website": "https://cityfitness.example.com",
+            "image": "fitness-center.png",
+            "membershipLevel": 2,
+            "description": "Full-service fitness facility"
+        },
+        {
+            "name": "Creative Design Studio",
+            "address": "654 Art Boulevard, City, State 12345",
+            "phone": "(555) 567-8901",
+            "website": "https://creativedesign.example.com",
+            "image": "design-studio.png",
+            "membershipLevel": 1,
+            "description": "Graphic design and branding"
+        },
+        {
+            "name": "Global Imports",
+            "address": "987 Trade Street, City, State 12345",
+            "phone": "(555) 678-9012",
+            "website": "https://globalimports.example.com",
+            "image": "global-imports.png",
+            "membershipLevel": 3,
+            "description": "International trade and logistics"
+        },
+        {
+            "name": "Local Brewery",
+            "address": "147 Beer Lane, City, State 12345",
+            "phone": "(555) 789-0123",
+            "website": "https://localbrewery.example.com",
+            "image": "brewery.png",
+            "membershipLevel": 2,
+            "description": "Craft beer and pub fare"
+        }
+    ]
+} 

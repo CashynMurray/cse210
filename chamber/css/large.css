@@ -1,0 +1,27 @@
+/* Large screen styles */
+@media screen and (min-width: 1024px) {
+    /* Header adjustments */
+    .header-content {
+        padding: 0 4rem;
+    }
+
+    /* Navigation adjustments */
+    nav {
+        padding: 0.5rem 4rem;
+    }
+
+    /* Main content adjustments */
+    main {
+        padding: 2rem 4rem;
+    }
+
+    /* Directory grid adjustments */
+    #memberDirectory {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* Footer adjustments */
+    .footer-content {
+        padding: 0 4rem;
+    }
+} 
