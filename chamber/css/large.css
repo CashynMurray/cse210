@@ -1,27 +1,37 @@
-/* Large screen styles */
 @media screen and (min-width: 1024px) {
-    /* Header adjustments */
     .header-content {
         padding: 0 4rem;
     }
 
-    /* Navigation adjustments */
     nav {
         padding: 0.5rem 4rem;
     }
 
-    /* Main content adjustments */
     main {
         padding: 2rem 4rem;
     }
 
-    /* Directory grid adjustments */
     #memberDirectory {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    /* Footer adjustments */
     .footer-content {
         padding: 0 4rem;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .places-grid {
+        grid-template-areas:
+            "card1 card2 card3"
+            "card4 card5 card6"
+            "card7 card8 .";
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .visitor-info {
+        position: sticky;
+        top: 1rem;
+        z-index: 100;
     }
 } 

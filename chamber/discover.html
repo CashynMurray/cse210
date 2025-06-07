@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover Mountain View - Explore the best places and attractions in our city">
+    <title>Discover Mountain View - Chamber of Commerce</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo-container">
+                <img src="images/logo.webp" alt="Mountain View Chamber of Commerce Logo" width="100" height="100">
+                <div class="header-text">
+                    <h1>Mountain View</h1>
+                    <h2>Chamber of Commerce</h2>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="https://facebook.com" target="_blank"><img src="images/facebook.webp" alt="Facebook" width="32" height="32"></a>
+                <a href="https://linkedin.com" target="_blank"><img src="images/linkedin.webp" alt="LinkedIn" width="32" height="32"></a>
+            </div>
+        </div>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html" class="active">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+        <div id="date"></div>
+    </header>
+
+    <main class="discover-main">
+        <div class="visitor-info">
+            <p id="visitMessage"></p>
+        </div>
+        
+        <div class="places-grid">
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/logo.webp" alt="Mountain View Chamber of Commerce Logo" width="100" height="100">
+                <div>
+                    <h3>Mountain View Chamber of Commerce</h3>
+                    <p>123 Main Street</p>
+                    <p>Mountain View, CA 94041</p>
+                </div>
+            </div>
+            <div class="contact-info">
+                <p>info@mountainviewchamber.org</p>
+                <p>+1 (123) 123-4567</p>
+                <p><a href="https://maps.google.com" target="_blank">📍 Location Map</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> Mountain View Chamber</p>
+            <p>Cashy</p>
+            <p>WDD 231 Project</p>
+            <p>Last Modified: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/discover.js"></script>
+</body>
+</html> 

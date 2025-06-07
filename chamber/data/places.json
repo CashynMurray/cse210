@@ -1,0 +1,60 @@
+{
+    "places": [
+        {
+            "id": 1,
+            "name": "Computer History Museum",
+            "address": "1401 N Shoreline Blvd, Mountain View, CA 94043",
+            "description": "A museum dedicated to preserving and presenting the stories and artifacts",
+            "image": "computer-history-museum.webp"
+        },
+        {
+            "id": 2,
+            "name": "Shoreline Amphitheatre",
+            "address": "1 Amphitheatre Pkwy, Mountain View, CA 94043",
+            "description": "A premier outdoor concert venue with a capacity of 22,500.",
+            "image": "shoreline-amphitheatre.webp"
+        },
+        {
+            "id": 3,
+            "name": "Mountain View Center for the Performing Arts",
+            "address": "500 Castro St, Mountain View, CA 94041",
+            "description": "A state-of-the-art performing arts center in the heart of downtown.",
+            "image": "performing-arts-center.webp"
+        },
+        {
+            "id": 4,
+            "name": "Stevens Creek Trail",
+            "address": "Stevens Creek Trail, Mountain View, CA 94043",
+            "description": "A scenic 5.2-mile trail perfect for outdoor activites.",
+            "image": "stevens-creek-trail.webp"
+        },
+        {
+            "id": 5,
+            "name": "Rengstorff House",
+            "address": "3070 N Shoreline Blvd, Mountain View, CA 94043",
+            "description": "A restored Victorian mansion built in 1867.",
+            "image": "rengstorff-house.webp"
+        },
+        {
+            "id": 6,
+            "name": "Castro Street",
+            "address": "Castro St, Mountain View, CA 94041",
+            "description": "The vibrant downtown area in the heart of Mountain View.",
+            "image": "castro-street.webp"
+        },
+        {
+            "id": 7,
+            "name": "NASA Ames Research Center",
+            "address": "Moffett Field, Mountain View, CA 94035",
+            "description": "A major NASA research facility.",
+            "image": "nasa-ames.webp"
+        },
+        {
+            "id": 8,
+            "name": "Mountain View Farmers' Market",
+            "address": "600 W Evelyn Ave, Mountain View, CA 94041",
+            "description": "A weekly farmers' market offering fresh food from local vendors.",
+            "image": "farmers-market.webp"
+        }
+    ]
+} 
