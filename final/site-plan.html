@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Plan - WDD 231 Final Project</title>
+    <style>
+        :root {
+            --primary-color: #1b4332;
+            --secondary-color: #2d6a4f;
+            --accent-color: #40916c;    
+            --text-color: #081c15;       
+            --background-color: #f0f7f4; 
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        h1, h2, h3 {
+            color: var(--primary-color);
+            font-family: 'Playfair Display', serif;
+        }
+
+        section {
+            background-color: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .color-scheme {
+            display: flex;
+            gap: 1rem;
+            margin: 1rem 0;
+            flex-wrap: wrap;
+        }
+
+        .color-box {
+            width: 100px;
+            height: 100px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .wireframe {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            margin: 1rem 0;
+            background-color: white;
+        }
+
+        .wireframe img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Site Plan</h1>
+        <p>WDD 231 - Web Frontend Development Final Project</p>
+    </header>
+
+    <main>
+        <section id="site-name">
+            <h2>Site Name</h2>
+            <p><strong>Fly Fishing Guide</strong></p>
+            <p>This name was selected because it clearly communicates the site's purpose.</p>
+        </section>
+
+        <section id="site-purpose">
+            <h2>Site Purpose</h2>
+            <p>Fly Fishing Guide serves as a comprehensive platform for both beginners and experienced fly fishers. The site provides:</p>
+            <ul>
+                <li>Detailed guides on fly fishing techniques and equipment</li>
+                <li>Local fishing spot recommendations and conditions</li>
+                <li>Fly tying tutorials and patterns</li>
+                <li>Seasonal fishing reports and forecasts</li>
+                <li>Community forum for sharing experiences and tips</li>
+                <li>Equipment reviews and recommendations</li>
+            </ul>
+        </section>
+
+        <section id="scenarios">
+            <h2>Scenarios</h2>
+            <ul>
+                <li>What are the best flies to use for trout in spring?</li>
+                <li>Where are the best fly fishing spots near me?</li>
+                <li>How do I tie a basic dry fly pattern?</li>
+                <li>What equipment do I need to start fly fishing?</li>
+                <li>What are the current water conditions at my favorite fishing spot?</li>
+            </ul>
+        </section>
+
+        <section id="color-schema">
+            <h2>Color Schema</h2>
+            <div class="color-scheme">
+                <div class="color-box" style="background-color: var(--primary-color);">
+                    Primary<br>#1b4332
+                </div>
+                <div class="color-box" style="background-color: var(--secondary-color);">
+                    Secondary<br>#2d6a4f
+                </div>
+                <div class="color-box" style="background-color: var(--accent-color);">
+                    Accent<br>#40916c
+                </div>
+            </div>
+            <p><strong>Primary Color (#1b4332):</strong> Used for headings, navigation, and important UI elements. This deep forest green reflects the natural environment of fly fishing.</p>
+            <p><strong>Secondary Color (#2d6a4f):</strong> Used for buttons and interactive elements. This sage green provides a natural, calming presence.</p>
+            <p><strong>Accent Color (#40916c):</strong> Used for highlights, hover states, and call-to-action elements. This emerald green adds vibrancy while maintaining the natural theme.</p>
+        </section>
+
+        <section id="typography">
+            <h2>Typography</h2>
+            <h3>Heading Font: Playfair Display</h3>
+            <p>Used for all headings (h1, h2, h3) to provide an elegant and sophisticated appearance that reflects the timeless nature of fly fishing.</p>
+            
+            <h3>Body Font: Roboto</h3>
+            <p>Used for all body text, providing excellent readability and a clean, modern look that works well for instructional content and articles.</p>
+        </section>
+
+        <section id="wireframe">
+            <h2>Wireframe</h2>
+            <div class="wireframe">
+                <h3>Mobile View</h3>
+                <p><img src="images/mobile.png" alt="Mobile Wireframe" width="300"></p>
+                <ul>
+                    <li>Single column layout</li>
+                    <li>Hamburger menu for navigation</li>
+                    <li>Stacked fishing spot cards</li>
+                    <li>Full-width images</li>
+                    <li>Collapsible technique guides</li>
+                </ul>
+            </div>
+            <div class="wireframe">
+                <h3>Desktop View</h3>
+                <p><img src="images/desk top view.png" alt="Desktop Wireframe" width="800"></p>
+                <ul>
+                    <li>Multi-column layout</li>
+                    <li>Horizontal navigation menu</li>
+                    <li>Sidebar for weather and conditions</li>
+                    <li>Grid-based fishing spot display</li>
+                    <li>Interactive map integration</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Fly Fishing Guide | Site Plan | Cashyn Murray</p>
+    </footer>
+</body>
+</html> 
