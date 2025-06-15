@@ -1,0 +1,31 @@
+@media screen and (min-width: 1024px) {
+    main {
+        padding: 3rem;
+    }
+
+    .hero {
+        padding: 4rem 0;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    #spots-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .weather {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    form {
+        max-width: 800px;
+    }
+
+    .modal-content {
+        width: 60%;
+    }
+} 

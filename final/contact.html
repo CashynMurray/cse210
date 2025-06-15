@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact us for more information about fly fishing spots, techniques, and gear recommendations.">
+    <meta name="author" content="Your Name">
+    <meta property="og:title" content="Contact Us - Fly Fishing Adventures">
+    <meta property="og:description" content="Get in touch with us for more information about fly fishing spots and techniques.">
+    <meta property="og:type" content="website">
+    <title>Fly Fishing Adventures - Contact</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fishing-spots.html">Fishing Spots</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact Us</h1>
+        
+        <form method="get" action="form-submitted.html">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" required></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Message</legend>
+                <label class="top">Subject* <input type="text" name="subject" required></label>
+                <label class="top">Message* <textarea name="message" required></textarea></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferences</legend>
+                <label class="sbs"><input type="checkbox" name="newsletter"> Subscribe to Newsletter</label>
+                <label class="sbs"><input type="checkbox" name="updates"> Receive Updates</label>
+            </fieldset>
+
+            <input type="submit" value="Send Message" class="submitBtn">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Fly Fishing Adventures</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+        <p><a href="attributions.html">Attributions</a></p>
+        <p><a href="https://youtube.com/your-video-link" target="_blank">Project Demo Video</a></p>
+    </footer>
+
+    <script src="js/script.js" type="module"></script>
+</body>
+</html> 

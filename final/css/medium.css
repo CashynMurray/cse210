@@ -1,0 +1,56 @@
+@media screen and (min-width: 768px) {
+    #hamburgerBtn {
+        display: none;
+    }
+
+    #primaryNav {
+        display: flex;
+        flex-direction: row;
+        position: static;
+        background: none;
+        padding: 0;
+    }
+
+    #primaryNav li {
+        margin: 0 1rem;
+    }
+
+    #primaryNav a {
+        padding: 0.5rem;
+    }
+
+    main {
+        padding: 2rem;
+    }
+
+    #spots-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    fieldset {
+        grid-column: 1 / -1;
+    }
+
+    .submitBtn {
+        grid-column: 1 / -1;
+    }
+
+    .weather-card {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .weather-card img {
+        width: 100px;
+        height: 100px;
+    }
+} 
